@@ -1,0 +1,4 @@
+<!--start.wxml-->
+<button class="btn1" bindtap="getDataFromOneNet">
+小录带你看天气</button>
+<image style="width: 400px; height: 600px; margin:0px;" mode="scaleToFill" src="{{imageSrc}}"></image>

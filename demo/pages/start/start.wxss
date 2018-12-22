@@ -1,0 +1,11 @@
+/* start.wxss */
+
+.btn1{
+  background-color: rgb(190, 231, 40);
+  color: #145534;
+  width: 60%;
+  top: 6%;
+   left: 20%;
+  position:absolute
+}
+

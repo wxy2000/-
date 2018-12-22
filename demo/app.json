@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/start/start",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/weather/weather",
+    "pages/recording/recording"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ECC0A8",
+    "navigationBarTitleText": "小录同学",
+    "navigationBarTxetStyle": "white"
+  },
+  "debug": true
+,
+   "tabBar": {
+      "color": "#000",
+      "selectedColor": "#4db900",
+      "backgroundColor": "#fbfbfd",
+      "position": "bottom",
+      "list": [
+     {
+      "pagePath": "pages/welcome/welcome",
+      "text": "欢迎"
+    },
+    {
+      "pagePath": "pages/start/start",
+      "text": "图表"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "音乐"
+    },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气"
+      },
+      {
+         "pagePath":"pages/recording/recording",
+         "text":"录音"
+      }]
+  } 
+}
